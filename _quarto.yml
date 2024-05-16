@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "quarto"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - metaweb.qmd
+      - metaweb_2009.qmd
+      - metaweb_2012.qmd
+      - metaweb_2016.qmd
+      - LIM_2009.qmd
+      - LIM_2012.qmd
+      - LIM_2016.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
